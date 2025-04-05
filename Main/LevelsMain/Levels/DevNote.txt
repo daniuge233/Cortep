@@ -1,0 +1,31 @@
+----开法记录----
+这里可以写一些开发途中想到的点子
+
+2023/1/25
+镜像谱面实现方法: 把相机移到对面, 左右翻转, 上下翻转
+
+判定数据：
+1ms - perfect
+±3ms - good
+else bad/miss
+
+2023/2/1
+对美工提出点要求:
+1. note为直径170px的圆
+2. full的长条做成边宽在95px内, 直径在825px内的圆环。直接把圆环发我就行, 不要切割!
+3. mining外圆和内圈分开文件, 尺寸都与普通note大小一致
+4. 请勿在图片外围留整圈透明
+请严格按照这个标准制作贴图。
+——daniuge233
+
+2023/2/4
+1. 如果玩家在滑动途中往回滑动				* 通过坐标计算方向，禁止向其他方向。	如果在两个象限的交界点, 用象限判断手指位置。
+2. 如果玩家在滑动途中松手				* miss
+3. 如果玩家在滑动途中按住不动				* 增加一个允许按住不动的时间，超过就miss
+4. 如果玩家在滑动途中用另一只手指触摸终点		* 判断同一个full内的手指数量, 有两个及以上miss
+
+2023/2/12
+使用前的准备事项:
+1. 创建notes图层
+2. 将Edit - Project Settings... - Physics 2D - Layer Collision Matrix下, 取消notes和notes的碰撞检测
+3. 将Edit - Project Settings... - Player - Resolution and Presentation - Orientation - Default Oritation改为LandSpace Left

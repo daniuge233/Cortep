@@ -1,0 +1,51 @@
+{
+    "Version" : "1.0.1",
+    "ReleaseDate" : "2024/2/24",
+
+    "Chapters" : [
+
+        {
+            "ID" : 0,
+            "Name" : "Chapter1",
+            "Levels" : [
+
+                {
+                    "ID" : 1,
+                    "Name" : "Title",
+                    "Author" : "daniuge233",
+                    "Illustration" : "daniuge233",
+                    "Chart" : "daniuge233",
+                    "Difficulties" : [1, 10, 15, 16]
+                },
+                
+                {
+                    "ID" : 2,
+                    "Name" : "Title",
+                    "Author" : "daniuge233",
+                    "Illustration" : "daniuge233",
+                    "Chart" : "daniuge233",
+                    "Difficulties" : [1, 10, 15, 16]
+                }
+
+            ]
+        },
+
+        {
+            "ID" : 1,
+            "Name" : "Chapter2",
+            "Levels" : [
+
+                {
+                    "ID" : 1,
+                    "Name" : "Title",
+                    "Author" : "daniuge233",
+                    "Illustration" : "daniuge233",
+                    "Chart" : "daniuge233",
+                    "Difficulties" : [1, 10, 15, 16]
+                }
+
+            ]
+        }
+
+    ]
+}

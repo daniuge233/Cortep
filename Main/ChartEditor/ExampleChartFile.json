@@ -1,0 +1,74 @@
+{
+    "Readme" : [
+        "1. 这是一个铺面文件的示例, 仅用于为制谱器开发与谱面制作提供参考, 请勿将其加载。",
+        "2. 文件中提及的所有时间数据单位为'拍', 基于BPM计算。",
+        "3. 文件中提及的关于判定线旋转的数据单位为'度/拍', 基于BPM计算。"
+    ],
+    
+    "Name" : "ExampleChart",
+    
+    "Author" : "daniuge233",
+    "Chart" : "daniuge233",
+    "Illustration" : "daniuge233",
+   
+    "MusicFolder" : "/assets/musics/ExampleMusic.mp3",
+    "IllustrationFolder" : "/assets/Illustrations/ExampleIllustration.png",
+
+    "BPM" : 64,
+    "Level" : "EZ 0",
+
+    "NotesCount" : 4,
+    "RingsCount" : 3,
+    "EventsCount" : 5,
+
+    "Rings" : [
+        {
+            "ID" : 0,
+            "Notes" : [
+                {
+                    "ID" : 0,
+                    "..." : "..."
+                }, 
+                {}
+            ]
+        },
+        {
+            "ID" : 1
+        },
+        {
+            "ID" : 2
+        }
+    ],
+
+    "Events" : [
+        {
+            "Type" : "Start",
+            "Time" : 0
+        },
+        {
+            "Type" : "ActiveRing",
+            "Target" : 0,
+            "DefaultAslSpeed" : 20,
+            "Time" : 0
+        },
+        {
+            "Type" : "ActiveRing",
+            "Target" : 1,
+            "DefaultAslSpeed" : 20,
+            "Time" : 1
+        },
+        {
+            "Type" : "ActiveRing",
+            "Target" : 2,
+            "DefaultAslSpeed" : 20,
+            "Time" : 4
+        },
+        {
+            "Type" : "Transform",
+            "TargetType" : "AssessLine",
+            "TargetID" : 0,
+            "Expect" : 30,
+            "Time" : 5
+        }
+    ]
+}
